@@ -1,0 +1,47 @@
+/* style.css */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1a1a2e; /* Dark blue-purple background */
+    color: #e0e0e0; /* Light grey text */
+    line-height: 1.5;
+    text-shadow: 2px 2px #000; /* Pixelated text shadow */
+}
+.pixel-border {
+    border: 4px solid #00ff00; /* Green pixel border */
+    box-shadow: 8px 8px 0px 0px #009900; /* Darker green shadow */
+    border-radius: 8px; /* Slightly rounded corners for pixel effect */
+}
+.pixel-button {
+    background-color: #00ff00; /* Green button */
+    color: #1a1a2e; /* Dark text on button */
+    padding: 12px 24px;
+    font-size: 0.875rem; /* Smaller font for buttons */
+    border: 4px solid #009900; /* Darker green border */
+    box-shadow: 6px 6px 0px 0px #006600; /* Even darker green shadow */
+    border-radius: 8px;
+    transition: all 0.1s ease-in-out;
+    text-decoration: none; /* Remove underline for links */
+    display: inline-block; /* Allow padding and margin */
+}
+.pixel-button:hover {
+    transform: translate(2px, 2px); /* Simulate button press */
+    box-shadow: 4px 4px 0px 0px #006600;
+}
+h1, h2 {
+    color: #ffcc00; /* Gold-yellow for headings */
+    text-shadow: 3px 3px #996600; /* Darker gold shadow */
+}
+.section-title {
+    background-color: #333366; /* Darker blue for section titles */
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 2px solid #666699;
+}
+.card {
+    background-color: #2a2a4a; /* Slightly lighter dark blue for cards */
+    border: 3px solid #666699; /* Blue-grey border */
+    box-shadow: 6px 6px 0px 0px #1a1a2e; /* Dark shadow */
+    border-radius: 8px;
+}
